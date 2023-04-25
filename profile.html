@@ -14,18 +14,20 @@
 
     <main>
       <section class="profile-intro">
-        <figure>
+        <figure class="profile-intro__figure">
           <img
+            class="profile-intro__img"
             src="images/Max-Liebermann-Selbstbildnis-mit.jpg"
             alt="Profilbild von Max Doe"
           />
         </figure>
-        <div class="name">
-          <h3>Max Doe</h3>
+        <div class="profile-intro__name">
+          <h2 class="question-card__headline">Max Doe</h2>
         </div>
       </section>
 
       <section class="profile-about">
+        <h2 class="question-card__headline">About me</h2>
         <p>
           Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben
           da sind und wie sie aussehen. Manchmal benutzt man Worte wie
@@ -37,38 +39,36 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <nav class="nav-footer">
-        <ul>
-          <li id="navi01">
-            <a href="index.html"
-              ><img
-                src="images/icons8-zuhause-384.png"
-                alt="Home-Button"
-                width="35px"
-              />
-            </a>
-          </li>
-          <li id="navi02">
-            <a href="bookmarks.html"
-              ><img
-                src="images/icons8-lesezeichen-384.png"
-                alt="Home-Button"
-                width="35px"
-              />
-            </a>
-          </li>
-          <li id="navi03">
-            <a href="profile.html"
-              ><img
-                src="images/icons8-person-männlich-96.png"
-                alt="Home-Button"
-                width="35px"
-              />
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <footer class="footer__nav">
+      <ul class="footer__nav--liste">
+        <li id="navi01" class="footer__nav--list-element">
+          <a href="index.html"
+            ><img
+              src="images/icons8-zuhause-384.png"
+              alt="Home-Button"
+              width="35px"
+            />
+          </a>
+        </li>
+        <li id="navi02" class="footer__nav--list-element">
+          <a href="bookmarks.html"
+            ><img
+              src="images/icons8-lesezeichen-384.png"
+              alt="Home-Button"
+              width="35px"
+            />
+          </a>
+        </li>
+        <li id="navi03" class="footer__nav--list-element">
+          <a href="profile.html"
+            ><img
+              src="images/icons8-person-männlich-96.png"
+              alt="Home-Button"
+              width="35px"
+            />
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

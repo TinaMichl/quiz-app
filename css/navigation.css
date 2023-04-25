@@ -1,0 +1,33 @@
+/*footer*/
+.footer__nav {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  bottom: 0px;
+  list-style-type: none;
+  background-color: aqua;
+}
+
+.footer__nav--liste {
+  background-color: #617143;
+  height: 70px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer__nav--list-element {
+  flex-grow: 1;
+}
+
+.footer__nav--list-element a {
+  margin: auto;
+  margin-top: 14px;
+  text-align: center;
+  display: block;
+}
+#home #navi01,
+#bookmarks #navi02,
+#profile #navi03 {
+  background-color: #df7857;
+}
